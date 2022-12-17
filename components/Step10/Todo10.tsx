@@ -5,7 +5,7 @@ type Props = {
   isImportant: boolean;
   deadline: Date;
 };
-const Todo9 = (props: Props) => {
+const Todo10 = (props: Props) => {
   return (
     <div className="grid grid-cols-5 items-center gap-5">
       <StarIcon
@@ -21,4 +21,4 @@ const Todo9 = (props: Props) => {
   );
 };
 
-export default Todo9;
+export default Todo10;

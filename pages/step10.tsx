@@ -73,6 +73,7 @@ const Step10 = () => {
             });
             setInputVal("");
             setIsImportant(false);
+            setDeadline(new Date());
           }}
         >
           確定

@@ -14,6 +14,21 @@ export default function Home() {
         <Link href="/step8" className="list-item py-1">
           Step 8
         </Link>
+        <Link href="/step9" className="list-item py-1">
+          Step 9
+        </Link>
+        <Link href="/step10" className="list-item py-1">
+          Step 10
+        </Link>
+        <Link href="/step11" className="list-item py-1">
+          Step 11
+        </Link>
+        <Link href="/step12" className="list-item py-1">
+          Step 12
+        </Link>
+        <Link href="/step13" className="list-item py-1">
+          Step 13
+        </Link>
       </ul>
     </div>
   );

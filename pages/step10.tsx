@@ -16,9 +16,9 @@ const Step10 = () => {
     <div className="flex flex-col justify-center items-center h-screen">
       <div className="pb-5 ">
         <div className="grid grid-cols-5 font-bold gap-5">
-          <div className="col-span-1">重要</div>
-          <div className="col-span-2">TODO</div>
-          <div className="col-span-2">期限</div>
+          <div className="col-span-1">スター　　　</div>
+          <div className="col-span-2">やること　</div>
+          <div className="col-span-2">　期限</div>
         </div>
         {todoList.map((val, i) => {
           return (
@@ -79,8 +79,8 @@ const Step10 = () => {
           確定
         </div>
       </div>
-      <Link className="p-2 mt-32 border-b-2" href="/">
-        Step一覧へ
+      <Link className="p-2 mt-32 border-b-2 bg-red-400 hover:bg-red-100" href="/">
+        ホームへ戻る
       </Link>
     </div>
   );

@@ -36,8 +36,8 @@ const Step8 = () => {
           確定
         </div>
       </div>
-      <Link className="p-2 mt-32 border-b-2" href="/">
-        Step一覧へ
+      <Link className="p-2 mt-32 border-b-2 bg-red-400 hover:bg-red-100" href="/">
+        ホームへ戻る
       </Link>
     </div>
   );

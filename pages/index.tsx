@@ -3,31 +3,22 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="p-5">
-      <div className="text-green-400 text-3xl font-bold p-5">TODO-LIST</div>
-      <ul className="p-5 text-xl list-disc">
+      <div className="text-red-400 text-7xl font-bold p-3 bg-amber-400 text-center">TODO-LIST</div>
+      <ul className="p-10 text-xl text-center">
         <Link href="/step6" className="list-item py-1">
-          Step 6
+          1. カウントアップ
         </Link>
         <Link href="/step7" className="list-item py-1">
-          Step 7
+          2. テキスト入力
         </Link>
         <Link href="/step8" className="list-item py-1">
-          Step 8
-        </Link>
-        <Link href="/step9" className="list-item py-1">
-          Step 9
+          3. 箇条書き
         </Link>
         <Link href="/step10" className="list-item py-1">
-          Step 10
+          4. to doリスト
         </Link>
         <Link href="/step11" className="list-item py-1">
-          Step 11
-        </Link>
-        <Link href="/step12" className="list-item py-1">
-          Step 12
-        </Link>
-        <Link href="/step13" className="list-item py-1">
-          Step 13
+          5. to doリスト  消去機能付き
         </Link>
       </ul>
     </div>
